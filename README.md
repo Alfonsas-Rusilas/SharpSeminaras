@@ -1,0 +1,2 @@
+# SharpSeminaras
+Besimokant C# VilniausCoding
