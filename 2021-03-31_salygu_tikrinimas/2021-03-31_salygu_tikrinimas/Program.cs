@@ -17,23 +17,39 @@ namespace _2021_03_31_salygu_tikrinimas
 
             int maks = 0;
 
-            if ((skaicius1 > skaicius2) && (skaicius1 > skaicius3)) {
+            if ((skaicius1 > skaicius2) && (skaicius1 > skaicius3)) 
+            {
                 maks = skaicius1;
             }
-
-            if ((skaicius2 > skaicius1) && (skaicius2 > skaicius3))
+            else if (skaicius2 > skaicius3)
             {
                 maks = skaicius2;
             }
-
-            if ((skaicius3 > skaicius1) && (skaicius3 > skaicius2))
+            else 
             {
                 maks = skaicius3;
             }
-
             Console.WriteLine("Didžiausias yra skaičius: {0}", maks);
-            
 
+            if ((skaicius1 > skaicius2) && (skaicius1 < 100))
+            {
+                Console.Write("OK: (skaicius1 > skaicius2) && (skaicius1 < 100)");
+            }
+
+            if ((skaicius2 > 0) && (skaicius2 > skaicius1))
+            {
+                Console.Write("OK: (skaicius2 > 0) && (skaicius2 > skaicius1)");
+            }
+
+            if ((skaicius1 > skaicius2) && (skaicius1 > skaicius3) || skaicius1 > 0)
+            {
+                Console.Write("OK: (skaicius1 > skaicius2) && (skaicius1 > skaicius3) || skaicius1>0");
+            }
+
+            if ((skaicius3 >= 5) && (skaicius3 <= 10) || (skaicius3 > skaicius2) || (skaicius3 > skaicius1))
+            {
+                Console.Write("OK: (skaicius1 > skaicius2) && (skaicius1 < 100)");
+            }
         }
     }
 }
