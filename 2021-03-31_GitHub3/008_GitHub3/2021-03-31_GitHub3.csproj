@@ -7,8 +7,4 @@
     <StartupObject>_008_GitHub3.Lesson3.Program3</StartupObject>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="header\" />
-  </ItemGroup>
-
 </Project>

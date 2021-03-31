@@ -10,7 +10,7 @@ namespace _008_GitHub3.Lesson3
     {
         static void Main()
         {
-            Console.WriteLine("3 3 3 3");
+            Console.WriteLine("OK work it");
 
             Console.ReadLine();
 
