@@ -50,6 +50,8 @@ namespace _2021_03_31_salygu_tikrinimas
             {
                 Console.Write("OK: (skaicius1 > skaicius2) && (skaicius1 < 100)");
             }
+
+            // for checkout
         }
     }
 }
