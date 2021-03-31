@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>_008_GitHub3</RootNamespace>
+    <StartupObject>_008_GitHub3.Lesson3.Program3</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
