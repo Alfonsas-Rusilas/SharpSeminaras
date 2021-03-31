@@ -10,10 +10,22 @@ namespace _008_GitHub3.Lesson3
     {
         static void Main()
         {
-            Console.WriteLine("OK work it");
+            Console.WriteLine("Programos pradžia ===========:");
+
+
+            if (true)
+            {
+                Console.WriteLine("");
+            }
+            else
+            {
+                //Console.WriteLine("");
+            }
+
+
+
 
             Console.ReadLine();
-
         }
 
     }
